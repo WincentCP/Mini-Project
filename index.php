@@ -2,7 +2,7 @@
 // Start session
 session_start();
 require_once 'config/database.php';
-require_once 'app/routes/web.php';
+require_once 'routes/web.php';
 
 // Get URL parameter
 $url = isset($_GET['url']) ? $_GET['url'] : 'home';
